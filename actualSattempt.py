@@ -104,7 +104,7 @@ if __name__ == "__main__":
     
     #if choice 1, start program with a namelist
     if int(choice) == 1:
-        with open(r'C:/Users/RyanTAsher/Desktopnames.txt') as f:
+        with open(r'C:/Users/RyanTAsher/names.txt') as f:
             lines = f.read().splitlines()
         for names in lines:
             start(names)
