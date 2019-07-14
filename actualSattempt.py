@@ -3,7 +3,7 @@
 Created on Mon Jul 25 01:42:16 2016
 Modified on Sat Jul 14 12:50:45 2019
 
-@author: Ryan Asher
+@author: ForThePeople54
 """
 
 import random as rn
@@ -40,7 +40,7 @@ def gal(g_url, name):
                              lnk.contents[0].get('href')
                     
                     #Creates download directory
-                    path = r"C:/Users/RyanTAsher/Desktop/Downloads"
+                    path = r"******ENTERPATH******"
                     path = os.path.join(path, name)
                     path = os.path.join(path, rg_name)
                     if not os.path.exists(path):
@@ -104,7 +104,7 @@ if __name__ == "__main__":
     
     #if choice 1, start program with a namelist
     if int(choice) == 1:
-        with open(r'C:/Users/RyanTAsher/names.txt') as f:
+        with open(r'******ENTERPATH******') as f:
             lines = f.read().splitlines()
         for names in lines:
             start(names)
